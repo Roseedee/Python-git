@@ -1,5 +1,6 @@
 k=float(input("money"))
 tu=k//1000
+
 fh=(k-tu*1000)//500
 
 h=(k-(fh*500+tu*1000))//100
