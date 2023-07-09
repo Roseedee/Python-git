@@ -1,12 +1,19 @@
-money = int(input())
+moneyPerMonth = int(input("Enter money : "))
 
-b1000 = money // 1000
+#1
+moneyPerYear = moneyPerMonth * 12
+print("Money per year : ", moneyPerYear)
 
-money = money - b1000 * 1000
+#2
+moneyUse = moneyPerYear * 0.4
+print("Money use(40%) : ", moneyUse)
 
-b500 = money // 500
+if moneyUse <= 60000:
+    moneyPerYear = moneyPerYear - moneyUse
+else:
+    moneyPerYear = moneyPerYear - 600000
+    
 
-money = money - b500 * 500
 
-print("1000 : ", b1000)
-print("500 : ", b500)
+
+
