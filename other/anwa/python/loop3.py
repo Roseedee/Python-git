@@ -9,9 +9,8 @@ for x in n:
 
 list.sort()
 
-print("max is : ", list[len(list) - 1])
+print("sax is : ", list[len(list) - 1])
 print("sum is : ", sum)
-
 
 
 
